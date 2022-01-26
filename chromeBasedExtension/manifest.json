@@ -1,0 +1,19 @@
+{ 
+	"name": "Wordle cheat",
+	"manifest_version": 2,
+	"version": "1.0", 
+	"description": "Lets you know the wordle of the day",
+	"default_locale": "en",
+	"author": "ozboware",
+	"browser_action": { 
+		"name": "Manipulate DOM", 
+		"icons": ["icon.png"], 
+		"default_icon": "icon.png" 
+	}, 
+	"content_scripts": [ 
+		{
+			"js": [ "jquery.min.js", "background.js" ],
+			"matches": [ "http://*.powerlanguage.co.uk/*", "https://*.powerlanguage.co.uk/*"]
+		}
+	] 
+}
