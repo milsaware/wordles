@@ -13,7 +13,7 @@
 	"content_scripts": [ 
 		{
 			"js": [ "jquery.min.js", "background.js" ],
-			"matches": [ "http://*.powerlanguage.co.uk/*", "https://*.powerlanguage.co.uk/*"]
+			"matches": [ "https://*.nytimes.com/*"]
 		}
 	] 
 }
